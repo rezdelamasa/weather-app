@@ -1,0 +1,19 @@
+.weather-card-icon {
+	flex-grow: 1;
+}
+
+.fa-bolt {
+	color: yellow;
+}
+
+.fa-tint {
+	color: blue;
+}
+
+.fa-cloud {
+	color: grey;
+}
+
+.fa-sun-o {
+	color: orange;
+}

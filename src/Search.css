@@ -1,0 +1,22 @@
+.search {
+	width: 80%;
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+.search input{
+	height: 50px;
+}
+
+.search-field {
+	width: 75%;
+	border: 1px solid grey;
+	box-sizing: border-box;
+}
+
+.search-submit {
+	width: 24%;
+}
+
+
+

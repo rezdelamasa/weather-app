@@ -1,0 +1,16 @@
+.forecast-list {
+	list-style-type: none;
+	display: inline-block;
+	/*float: left;*/
+	padding: 0;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.weather-card {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 100px;
+	margin: 0 20px;
+}
