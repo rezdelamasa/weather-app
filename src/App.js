@@ -29,7 +29,7 @@ class App extends Component {
     e.preventDefault();
     const zip = e.target.elements.zip.value;
     // const country = e.target.elements.country.value;
-    const api = `http://api.apixu.com/v1/forecast.json?key=1a87c78087cb46c696f05814182703&q=${zip}&days=7`;
+    const api = `https://api.apixu.com/v1/forecast.json?key=1a87c78087cb46c696f05814182703&q=${zip}&days=7`;
     const api_call = await fetch(api);
     const data = await api_call.json();
 
